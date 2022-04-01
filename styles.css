@@ -1,0 +1,115 @@
+/*
+  Name: Wesley Nguyen
+  Date: January 13, 2022
+  Section: CSE 154 AC
+  This is the styles.css page for the included html pages in this repo,
+  about.html and komodo.html. It has a green-gray theme.
+*/
+
+nav, body > footer, .img-row, #komodo > section, .buttons {
+  display: flex;
+}
+
+nav, body > footer, a {
+  color: white;
+}
+
+nav, body > footer {
+  background-color: #4B4B4C;
+  width: 100%;
+}
+
+nav {
+  top: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #859c91;
+}
+
+.centered, figcaption, main section h2, th, .monitors, section > p {
+  text-align: center;
+}
+
+.caption, #habitat > p {
+  text-align: left;
+}
+
+table,
+#komodo,
+#monitor-table,
+body,
+.img-slides > figure,
+#habitat,
+#habitat > img,
+button,
+.img-slides {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#habitat > img, button {
+  display: block;
+}
+
+#komodo, #monitor-table, figure, img, .img-row > img, #habitat > p {
+  padding: 15px;
+}
+
+.img-row, .buttons {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#split {
+  width: 50%;
+}
+
+#monitor-table {
+  margin-top: 20px;
+}
+
+table {
+  width: 70%;
+}
+
+table thead {
+  font-weight: bold;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th {
+  background-color: #04AA6D;
+}
+
+.img-slides > figure {
+  display: none;
+}
+
+img, .img-slides > figure, .img-slides > figure > img {
+  width: 640px;
+}
+
+.back, .next {
+  padding: 16px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: -25px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: black;
+}
+
+.back:hover, .next:hover {
+  background-color: grey;
+}
+
+body > footer {
+  bottom: 0;
+  height: 150px;
+}
