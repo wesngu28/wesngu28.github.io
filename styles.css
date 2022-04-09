@@ -1,20 +1,12 @@
-/*
-  Name: Wesley Nguyen
-  Date: January 13, 2022
-  Section: CSE 154 AC
-  This is the styles.css page for the included html pages in this repo,
-  about.html and komodo.html. It has a green-gray theme.
-*/
-
-nav, body > footer, .img-row, #komodo > section, .buttons {
+nav, .img-row, #komodo > section, .buttons, #resumes {
   display: flex;
 }
 
-nav, body > footer, a {
+nav, a {
   color: white;
 }
 
-nav, body > footer {
+nav {
   background-color: #4B4B4C;
   width: 100%;
 }
@@ -32,7 +24,20 @@ body {
   text-align: center;
 }
 
-.caption, #habitat > p {
+h1 {
+  margin-right: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.caption {
   text-align: left;
 }
 
@@ -41,8 +46,6 @@ table,
 #monitor-table,
 body,
 .img-slides > figure,
-#habitat,
-#habitat > img,
 button,
 .img-slides {
   margin-left: auto;
@@ -53,13 +56,18 @@ button,
   display: block;
 }
 
-#komodo, #monitor-table, figure, img, .img-row > img, #habitat > p {
+#komodo, #monitor-table, figure, img, .img-row > img {
   padding: 15px;
 }
 
-.img-row, .buttons {
+.img-row, .buttons, #resumes {
   flex-wrap: wrap;
   justify-content: center;
+}
+
+#resumes {
+  flex-direction: column;
+  align-items: center;
 }
 
 #split {
@@ -109,7 +117,20 @@ img, .img-slides > figure, .img-slides > figure > img {
   background-color: grey;
 }
 
-body > footer {
-  bottom: 0;
-  height: 150px;
+#resume {
+  font-weight: bold;
+  font-size: 1vw;
+  margin: 1%;
+  width: 5%;
+  cursor: pointer;
+  margin-right: auto;
+}
+
+#utilities {
+  margin-left: auto;
+}
+
+iframe {
+  width: 85%;
+  height: 500px;
 }
