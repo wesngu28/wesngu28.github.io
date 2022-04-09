@@ -37,12 +37,15 @@
   }
 
   function returnHome() {
+    let resumeHide = document.querySelectorAll('#resumes > *');
+    console.log(resumeHide);
+    for (let i = 0; i < resumeHide.length; i++) {
+      resumeHide[i].classList.add('hidden');
+    }
     let komodo = document.querySelector('#komodo');
     komodo.classList.remove('hidden');
     let table = document.querySelector('#monitor-table');
     table.classList.remove('hidden');
-    let resume = document.querySelector('#resumes');
-    resume.classList.add('hidden');
     let resumeButton = document.getElementById('resume');
     resumeButton.disabled = false;
   }
