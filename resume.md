@@ -1,55 +1,28 @@
-# Your Name
+# Wesley Nguyen
 
-your.name@example.com
+wesngu028@gmail.com
 
-http://www.example.com
+https://github.com/wesngu28
 
-http://www.linkedin.com/in/yourname
+https://www.linkedin.com/in/wesngu28/
 
 # Summary
 
-Quick Summary (not objective) specifically highlighting why you qualify for the job.
+Self-driven and dedicated student looking for an internship to learn the ins and outs of the
+technology and software worlds and learn, acquire, and refine valuable skills.
+
 
 # Work Experience (only last 10 years)
 
-## University Name 1 (City, State)
+## University of Washington (Seattle, Washington)
 
-* [University 1][] description, particularly if not well-known.*
+* The [University of Washington](https://www.washington.edu) is a research-focused university located in Seattle, Washington.
 
-** Position Title (include alternate titles in parentheses)** (Start Date - End Date)
+** Undergraduate Student (September 2019 - Present)
 
-Summary of your role
+During my coursework in the Geography Data Science major, I gained familiarity with many of the applications used within geospatial analysis, including exposure to the ESRI Suite and QGIS, and gained skills needed for spatial analysis. In addition to these, I have knowledge and skills in Java, Python, JavaScript, and HTML/CSS. I also worked with amazing people and built teamwork and collaborative skills
 
-- Accomplishment that contains **bold text**.
-- Accomplishment
-- Accomplishment
-- Accomplishment
-
-## University Name 2 (City, State)
-*[University 2][] description, particularly if not well-known.*
-
-** Position Title (include alternate titles in parentheses)** (Start Date - End Date)
-
-Summary of your role
-
-- Accomplishment that contains **bold text**.
-- Accomplishment
-- Accomplishment
-- Accomplishment
-
-## University Name 3 (City, State)
-* [University 3][] description, particularly if not well-known.*
-
-** Position Title (include alternate titles in parentheses)** (Start Date - End Date)
-
-Summary of your role
-
-- Accomplishment
-- Accomplishment
-- Accomplishment
-- Accomplishment
-
-
-[University 1]: http://www.univ1.edu
-[University 2]: http://www.univ2.edu
-[University 3]: http://www.univ3.edu
+- Dean's List 2020-2021.
+- Notable Coursework: Computer Science I & II, GIS Database and Programming, GIS Data
+Management, Digital Geographies, Introduction to Machine Learning, Web Programming
+- Created ArcGIS storymap on the Forbes Global 500 transition to East Asia
